@@ -15,6 +15,12 @@ width: 100%;
 #space {
   padding: 10px;
 }
+.btn {
+  border: 3px;
+  border-color: red;
+  border-spacing: 2px
+  text-decoration: none;
+}
 #fastfood {
   border: 3px;
   padding: 10px;
