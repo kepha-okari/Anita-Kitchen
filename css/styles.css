@@ -203,6 +203,51 @@ font-size: 20px;
   box-shadow: 10px;
 }
 
+#breakfast{
+  height:210px;
+  width: 343px;
+  background: url('../img/foodtop/breakfast.jpg') no-repeat;
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  }
+#lunch{
+  height:210px;
+  width: 343px;
+  background: url('../img/foodtop/lunch.jpg') no-repeat;
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  }
+#dinner{
+  height:210px;
+  width: 343px;
+  background: url('../img/foodtop/dinner.jpg') no-repeat;
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  align-items: center;
+  }
+  #party-hour{
+  background-color: #F15A29;
+  height:105px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#happy-hour{
+
+  background-color: white;
+  height:105px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
 
 
 
