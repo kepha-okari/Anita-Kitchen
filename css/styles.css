@@ -124,6 +124,11 @@ font-size: 20px;
   padding:auto;
   
 }
+.form {
+  color: white;
+  font-size: 23px;
+  font-family: 'Quicksand', sans-serif;
+}
 .product-name p {
 color:#F15A29;
 font-size: 20px;
