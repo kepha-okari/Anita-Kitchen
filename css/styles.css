@@ -79,9 +79,10 @@ h2 {
 #mid-products-images {
   margin: 50px;
   background-color: white;
+  list-style: none;
 }
 #mid-products-images img {
-  padding: 20px;
+  padding: 20px;git 
 }
 
 #products-nav {
@@ -96,6 +97,22 @@ h2 {
 .customers img {
   margin:10px;  
 }
+.product {
+  text-align: center;
+  padding:10px;
+  background-color: grey;
+}
+.product-name {
+  text-align: center;
+  padding:10px;
+  
+}
+.product-name p {
+color:#F15A29;
+font-size: 20px;
+  
+}
+
  
 
 #hgt {
