@@ -89,6 +89,15 @@ h2 {
   margin-bottom: 20px
   list-style: none;
 }
+
+.product p {
+color:black;
+font-size: 20px;
+}
+.product1 p {
+color:#F15A29;
+font-size: 20px;
+}
 .products-nav  ul li {
   display: inline-block;
   text-decoration: none;
@@ -99,12 +108,20 @@ h2 {
 }
 .product {
   text-align: center;
-  padding:10px;
+  padding:15px;
+  border: 5px;
+  border-color: black;
   background-color: grey;
 }
+.product1 {
+  text-align: center;
+  padding:auto;
+  background-color: white;
+}
+
 .product-name {
   text-align: center;
-  padding:10px;
+  padding:auto;
   
 }
 .product-name p {
