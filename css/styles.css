@@ -72,6 +72,29 @@ h2 {
 #mid-section-well {
   margin:100px;
   text-align: center;
+  background-color: white;
+  box-shadow: 8px;
+}
+
+#mid-products-images {
+  margin: 50px;
+  background-color: white;
+}
+#mid-products-images img {
+  padding: 20px;
+}
+
+#products-nav {
+  margin-bottom: 20px
+  list-style: none;
+}
+.products-nav  ul li {
+  display: inline-block;
+  text-decoration: none;
+  list-style: none;
+}
+.customers img {
+  margin:10px;  
 }
  
 
@@ -138,8 +161,7 @@ h2 {
 
 }
 .box {
-  border: 5px;
-  border-color: black;
+  box-shadow: 10px;
 }
 
 
