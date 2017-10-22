@@ -67,7 +67,7 @@ width: 100%;
 
 }
 #banner3 {
-  height: 100vh;
+  height: 47vh;
   width: 100%;
   background-image: url(../img/backgrounds/subscribe.jpg);
   background-repeat: no-repeat;
@@ -80,7 +80,7 @@ width: 100%;
   text-align: center;
 
 }
-#banner4{
+#banner-footer{
   margin-top: 0px;
   height: 40vh;
   width: 100%;
@@ -88,6 +88,12 @@ width: 100%;
   display: flex;
   justify-content:center;
   align-items:center;
+
+}
+
+#banner-footer .img{
+ max-width: 400px;
+  max-height: 300px;
 
 }
 
