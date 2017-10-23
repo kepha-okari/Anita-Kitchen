@@ -111,7 +111,7 @@ font-size: 20px;
   padding:15px;
   border: 5px;
   border-color: black;
-  background-color: grey;
+  background-color: #d8d8d6;
 }
 .product1 {
   text-align: center;
@@ -247,8 +247,59 @@ font-size: 20px;
   align-items: center;
   display: flex;
 }
+#subsctiption{
+  background-image: url(../ip2/assets/backgrounds/subscribe.jpg);
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: #ffffff ;
+  font-size: 20px;
+  
+}
+#email{
+  background: inherit;
+  color: #ffffff ;
+  border-radius: 4px;
+  width: 70%;
+}
+#button{
+  background-color: #e65c00 ;
 
-
+  font-size: 20px;
+  color: #ffffff ; 
+}
+/*#footer{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+#logo-white-caption{
+  color: #ffffff;
+}
+#logo-white{
+  float: left;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+#caption{
+  color: #ffffff;
+  font-size:25px;
+  /*padding-left: 30px;*/
+}
+.footer-logos{
+  padding: 20px;
+}
+#copyright{
+  color:#ffffff;
+  font-size: 15px;
+  /*padding-left: 45px;*/
+}
+#footer-items {
+  background-color: #F15A29;
+}
 
 
 /*#drinks{
