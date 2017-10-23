@@ -266,7 +266,8 @@ font-size: 20px;
 }
 #button{
   background-color: #e65c00 ;
-
+  border-radius: 4px;
+  border: 0.5px
   font-size: 20px;
   color: #ffffff ; 
 }
