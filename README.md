@@ -21,8 +21,7 @@ Are there issues that have not yet been resolved that you want to let users know
 
 The site employed the use of HTML,CSS, bootstrap and javascript to implement.
 
-# in any case of  achallenge contact Kepha Okari throughn the hone number +254707630747
- or email kephaokari@gmail.com
+
 
 
 there is no known bug so far
@@ -31,4 +30,4 @@ there is no known bug so far
 
 *MIT Licence*
 
-Copyright (c) 2017 ** Joshua **
+Copyright (c) 2017 ** Kepha Okari **
