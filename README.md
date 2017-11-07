@@ -13,21 +13,21 @@ this is a website giving the basic details of what the Anita's Kitchen restauran
 * a mobile phone/tablet or computer to access the site
 * it does not have a database. No database technology needed
 
-## Known Bugs
+## CREDITS
 
-Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place.
+####  StackOverflow.com and W3 schools.
 
-## Technologies Used
+## Technoligies
 
-The site employed the use of HTML,CSS, bootstrap and javascript to implement.
+##### 
+* HTML
+* CSS
+* Bootstrap.
+* Javascript.
+* JQuery
 
+## License
 
+*MIT License
 
-
-there is no known bug so far
-
-### License
-
-*MIT Licence*
-
-Copyright (c) 2017 ** Kepha Okari **
+Copyright (c) 2017 Kepha Okari

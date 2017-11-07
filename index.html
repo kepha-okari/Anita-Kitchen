@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap-theme.css" rel="stylesheet" type="text/css"> 
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> 
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <title> Anita Kitchen</title>
   </head>
 
   <body>
-    
-    <div class="container" id="banner">
-      
-      <div class="row" id="logo" >
-        <div>
-          <img src="img/logoBig.png">
+    <DIV class="humburger">
 
-        
-        <p><span id="white-text">We Serve The Best Food <br>At The<strong> Best Price</strong> </span> </p>
-       
+    <div class="row" id="banner">
+    <DIV class="humburger container-fluid">
 
+       <!-- The overlay -->
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
+            </div>
         </div>
-      </div>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        <script>
+            function openNav() {
+                document.getElementById("myNav").style.width = "100%";
+            }
+
+            function closeNav() {
+                document.getElementById("myNav").style.width = "0%";
+            }
+        </script>
+    
+      
+          <div class="row" id="logo" >
+            <div>
+               <p><img src="img/logoBig.png"></p> 
+                <p><span id="white-text">We Serve The Best Food <br>At The<strong> Best Price</strong> </span> </p>
+            </div>
+          </div>
+        </DIV>
+
     </div>
       
 
@@ -164,7 +191,7 @@
 
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-4" id ="hr">
 
                  <h1>About Menu</h1>               
                   <p> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. ente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table raw. </p>
@@ -183,7 +210,7 @@
             <p >Get our daily food items delivered to you email</p>
             <br/>
             <input type="text" name="email" placejolder="Your email" id="email">
-            <!-- <button id="button">Subscribe</button > --> <button  id="button"type="button" class="btn btn-deep-purple">Subscribe</button>
+             <button  id="button"type="button" class="btn btn-deep-purple">Subscribe</button>
           </form>
         </div>
 
@@ -191,23 +218,29 @@
 
        </div>
 
-        <div class="container" id="banner-footer">
-          <div class= "row" id="footer">
+        <div class="container" id="banner-footer">          
           
             <div class="col-md-12" id="footer-items">
+              <div id="spacer">
+                <section id="slogan">
+                  <img src="img/footerlogos/logo_white.png" width="40px" height"30px"> 
+                  <p>HOME</p>           
+                  
+                </section>
+                <p class="slogan">Thats what we are</p>
 
-              <div class="row"><div class="col-6"></div><img src="img/footerlogos/logo_white.png" width="40px" height"30px"> <div class="col-6"><p>HOME</p></div></div>
-              <img src="img/footerlogos/facebook.png">
-              <img src="img/footerlogos/twitter.png">
-              <img src="img/footerlogos/pinterest.png">
-
-            </div>
-            <p>2017 MENU Restaurant</p>
+                <section id="footer-icons">
+                  <i class="fa fa-facebook-square fa-lg" aria-hidden="true"></i>
+                  <i class="fa fa-twitter-square fa-lg" aria-hidden="true"></i>
+                  <i class="fa fa-pinterest-square fa-lg" aria-hidden="true"></i>
+                 </section>
+                </div> 
+              <p id="copyright">&copy; 2017 Menu Restaurant</p>
 
           </div>
       
 
-        </div>
+      
 
 
 
